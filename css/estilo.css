@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box1{
+   padding: 30px 100px;
+   background: linear-gradient(to left, #dfe6ff, #4a6cff, #4a6cff);
+   border-radius: 20px;
+   border-top: 15px solid red;
+   border-right: 15px solid blue;
+   border-bottom: 15px solid green;
+   border-left: 15px solid black;
+   margin: 120px;
+}
+.box2{
+   padding: 30px 100px;
+   color: white;
+   background-color: black;
+   border: 7px solid;
+   border-image: linear-gradient(45deg, hotpink, purple, dodgerblue);
+   border-image-slice: 1;
+  
+}
+
